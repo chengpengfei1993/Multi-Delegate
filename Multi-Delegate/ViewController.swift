@@ -23,6 +23,9 @@ extension ViewController:SomeManagerDelegate {
     func callBack() {
         title = NSStringFromClass(classForCoder)
     }
+    func callback(msg: [String : String]) {
+        print(msg)
+    }
 }
 
 

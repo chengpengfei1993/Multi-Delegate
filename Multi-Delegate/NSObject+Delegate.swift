@@ -34,7 +34,7 @@ extension NSObject {
         }
     }
     
-    func addDelegate(delegate:AnyObject?) {
+    func addDelegateObj(delegate:AnyObject?) {
         var exist = false
         for (index,weakObjectBridge) in self.delegateBridges.enumerated().reversed() {
             if let weakobj = weakObjectBridge.weakObject {

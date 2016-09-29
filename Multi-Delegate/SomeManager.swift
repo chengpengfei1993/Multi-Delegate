@@ -7,8 +7,9 @@
 //
 
 import UIKit
-protocol SomeManagerDelegate {
+@objc protocol SomeManagerDelegate {
     func callBack()
+    @objc optional func callback(msg:[String:String])
 }
 
 class SomeManager: NSObject {
@@ -20,10 +21,11 @@ class SomeManager: NSObject {
         operatDelegate { (delegate) in
             if let myDelegate = delegate as? SomeManagerDelegate {
                 myDelegate.callBack()
+                myDelegate.callback?(msg: ["msg":"hello world!"])
             }
         }
     }
     func addDelegate(delegate:SomeManagerDelegate){
-        super.addDelegate(delegate: delegate as AnyObject?)
+        super.addDelegateObj(delegate: delegate as AnyObject?)
     }
 }
