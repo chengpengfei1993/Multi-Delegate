@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         SomeManager.shareInstance().addDelegate(delegate: self)
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        SomeManager.shareInstance().addDelegate(delegate: self)
         SomeManager.shareInstance().action()
     }
 }

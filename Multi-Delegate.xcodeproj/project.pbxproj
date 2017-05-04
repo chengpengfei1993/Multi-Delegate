@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184EE4261EBABDDA0077175E /* DeallocHandlerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EE4251EBABDDA0077175E /* DeallocHandlerObject.swift */; };
 		643B47F31D9C257B008D0F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643B47F21D9C257B008D0F63 /* AppDelegate.swift */; };
 		643B47F51D9C257B008D0F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643B47F41D9C257B008D0F63 /* ViewController.swift */; };
 		643B47F81D9C257B008D0F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643B47F61D9C257B008D0F63 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184EE4251EBABDDA0077175E /* DeallocHandlerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeallocHandlerObject.swift; sourceTree = "<group>"; };
 		643B47EF1D9C257B008D0F63 /* Multi-Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-Delegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		643B47F21D9C257B008D0F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		643B47F41D9C257B008D0F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		643B47F11D9C257B008D0F63 /* Multi-Delegate */ = {
 			isa = PBXGroup;
 			children = (
+				184EE4251EBABDDA0077175E /* DeallocHandlerObject.swift */,
 				643B48201D9C2584008D0F63 /* NSObject+Delegate.swift */,
 				643B48221D9C260E008D0F63 /* SomeManager.swift */,
 				643B47F21D9C257B008D0F63 /* AppDelegate.swift */,
@@ -200,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Chan.;
 				TargetAttributes = {
 					643B47EE1D9C257B008D0F63 = {
@@ -277,6 +280,7 @@
 				643B47F31D9C257B008D0F63 /* AppDelegate.swift in Sources */,
 				643B48231D9C260E008D0F63 /* SomeManager.swift in Sources */,
 				643B48271D9C31D7008D0F63 /* ViewController2.swift in Sources */,
+				184EE4261EBABDDA0077175E /* DeallocHandlerObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -398,6 +403,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -519,6 +525,7 @@
 				643B48191D9C257B008D0F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643B481A1D9C257B008D0F63 /* Build configuration list for PBXNativeTarget "Multi-DelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +534,7 @@
 				643B481C1D9C257B008D0F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643B481D1D9C257B008D0F63 /* Build configuration list for PBXNativeTarget "Multi-DelegateUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +543,7 @@
 				643B481F1D9C257B008D0F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
